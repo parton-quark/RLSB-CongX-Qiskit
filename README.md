@@ -16,11 +16,14 @@ Quantum circuits and recording optimization results
 
 ## Additional Circuits 
 Newly written circuit for RLSB-OpenQASM.
-|Algorithm|circuits|image|Quantum Cost|Quantum Cost(Limited topology(2D,LNN))|record depth|record T counts|
-|---------|--------|-----|------------|--------------------------------------|------------|---------------|
-|ex)Quantum Walk on complete graph|circuit|image|cost|cost|depth|T counts|
 
+|Algorithm|circuits|image|Quantum Cost|Quantum Cost(Limited topology(2D,LNN))|record depth|record T|# of Qubit|
+|---------|--------|-----|------------|--------------------------------------|------------|---------------|---|
+|ex)Quantum Walk on complete graph|circuit|image|cost|cost|depth|T counts|qubits|
+
+Quantum Cost is given as follows.
+$C=C_s+C_c\times 10$ where $C_s$ is a number of Single-Qubit gates, and $C_c$ is a number of Two-Qubit Gates.
 # Contact and citation
-Feel free to contact me via issues for this repository or send email to parton@sfc.wide.ad.jp
-Please cite as follows when you write a paper using this program
-**To Be Announced** in .bib format
+Feel free to contact me via issues for this repository or send email to parton@sfc.wide.ad.jp .
+Please cite as follows when you write a paper using this program.
+**To Be Announced** in .bib format.

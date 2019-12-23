@@ -18,7 +18,7 @@ Quantum circuits and recording optimization results
 Newly written circuit for RLSB-OpenQASM.
 |Algorithm|circuits|image|Quantum Cost|Quantum Cost(Limited topology(2D,LNN))|record depth|record T counts|
 |---------|--------|-----|------------|--------------------------------------|------------|---------------|
-|ex)Quantum Walk on complete graph|image|cost|cost|depth|T counts|
+|ex)Quantum Walk on complete graph|circuit|image|cost|cost|depth|T counts|
 
 # Contact and citation
 Feel free to contact me via issues for this repository or send email to parton@sfc.wide.ad.jp

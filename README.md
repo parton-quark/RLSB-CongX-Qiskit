@@ -1,7 +1,7 @@
 # RLSB-OpenQASM
 Reversible Logic Synthesis Benchmarks in OpenQASM2.0
 
-[Reversible Logic Synthesis Benchmarks Page](https://webhome.cs.uvic.ca/~dmaslov/) is a useful quantum programms for benchmarking reversible/quantum circuit optimization. The original contents are written in machine-readable format (.tfc file) and developed and maintained by Dmitri Maslov. 
+[Reversible Logic Synthesis Benchmarks Page](https://webhome.cs.uvic.ca/~dmaslov/) is a useful quantum programms for benchmarking reversible/quantum circuit optimization. The original contents are written in machine-readable format (.tfc file) and w
 
 This is a rewriting of Reversible Logic Synthesis Benchmarks in OpenQASM by [Shin Nishio](https://scholar.google.com/citations?user=gZNt8twAAAAJ&hl=ja)(a.k.a. parton). 
 
@@ -22,7 +22,7 @@ Newly written circuit for RLSB-OpenQASM.
 |ex)Quantum Walk on complete graph|circuit|image|cost|cost|depth|T counts|qubits|
 
 Quantum Cost is given as follows.
-$C=C_s+C_c$$\times$ $10$ where $C_s$ is a number of Single-Qubit gates, and $C_c$ is a number of Two-Qubit Gates.
+$$C=C_s+C_c \times$ 10$$ where $C_s$ is a number of Single-Qubit gates, and $C_c$ is a number of Two-Qubit Gates.
 
 ## Parameters to optimize
 The hardware and system software (including quantum error correction) of the state-of-the-art quantum information processing system define the work that the quantum compiler should do and the method of evaluating its performance.

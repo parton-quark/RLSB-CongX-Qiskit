@@ -14,6 +14,26 @@ This is a rewriting of Reversible Logic Synthesis Benchmarks in Qiskit by [Shin 
 Quantum circuits and recording optimization results
 ## Contents from Original RLSB 
 To be released after approval of the original author
+
+|Family/type|Individual functions and circuits|
+|:--:|:--:|
+|4-bit with maximal gate count:|4b15g_1 , 4b15g_2 , 4b15g_3 , 4b15g_4 , 4b15g_5|
+|Adders:|1bitadder (rd32) , 5bitadder , 8bitadder|
+|Divisibility checkers:|4mod5 , 5mod5|
+|Cycle functions:|cycle10_2 , cycle17_3|
+|Galois field multipliers:|gf2^3mult , gf2^4mult , gf2^5mult , gf2^6mult , gf2^7mult , gf2^8mult , gf2^9mult , gf2^10mult , gf2^11mult , gf2^12mult , gf2^13mult , gf2^14mult , gf2^15mult , gf2^16mult , gf2^17mult , gf2^18mult , gf2^19mult , gf2^20mult , gf2^32mult , gf2^50mult , gf2^64mult , gf2^100mult , gf2^127mult , gf2^128mult , gf2^131mult , gf2^163mult , gf2^256mult , gf2^512mult|
+|Gray code functions|--|
+|Hamming coding functions:|ham3 , ham7 , ham15|
+|Hidden weighted bit functions:|hwb4 , hwb5 , hwb6 , hwb7 , hwb8 , hwb9 , hwb10 , hwb11 , hwb12 , hwb13 , hwb14 , hwb15 , hwb16 , hwb20 , hwb50 , hwb100 , hwb200 , hwb500 , hwb1000|
+|MMD worst case:|3_17 , 4_49|
+|Modula adders:|mod5adder , mod1024adder , mod1048576adder|
+|N-th prime:|nth_prime3_inc , nth_prime4_inc , nth_prime5_inc , nth_prime6_inc , nth_prime7_inc , nth_prime8_inc , nth_prime9_inc , nth_prime10_inc , nth_prime11_inc , nth_prime12_inc , nth_prime13_inc , nth_prime14_inc , nth_prime15_inc , nth_prime16_inc , nth_prime17_inc|
+|Permanent:|permanent1x1 , permanent 2x2 , permanent3x3 , permanent 4x4|
+|RD - input weight functions:|rd53 , rd73 , rd84|
+|Symmetric functions:|6sym , 9sym|
+|Other:|2-4dec , 2of5 , xor5|
+
+
 ## Additional Circuits 
 Newly written circuit for RLSB-OpenQASM.
 

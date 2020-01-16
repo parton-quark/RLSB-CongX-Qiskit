@@ -41,3 +41,5 @@ qc.ccx(1,3,2)
 qc.ccx(1,2,0)
 qc.ccx(0,2,1)
 qc.x(2)
+
+qc.draw(output='mpl')

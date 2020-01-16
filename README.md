@@ -1,7 +1,7 @@
 # RLSB-CongX-Qiskit
 Reversible Logic Synthesis Benchmarks in OpenQASM2.0
 
-[Reversible Logic Synthesis Benchmarks Page](https://webhome.cs.uvic.ca/~dmaslov/) is a useful quantum programms for benchmarking reversible/quantum circuit optimization. The original contents are written in machine-readable format (.tfc file) and w
+[Reversible Logic Synthesis Benchmarks Page](https://webhome.cs.uvic.ca/~dmaslov/) is a useful quantum programms for benchmarking reversible/quantum circuit optimization. The original contents are written in machine-readable format (.tfc file) by Dmitri Maslov et al..
 
 This is a rewriting of Reversible Logic Synthesis Benchmarks in Qiskit by [Shin Nishio](https://scholar.google.com/citations?user=gZNt8twAAAAJ&hl=ja)(a.k.a. parton). 
 
@@ -36,7 +36,7 @@ To be released after approval of the original author
 
 
 ## Additional Circuits 
-Newly written circuit for RLSB-OpenQASM.
+Newly written circuit for RLSB-CongX-Qiskit.
 
 |Algorithm|circuits|image|Quantum Cost|Quantum Cost(Limited topology(2D,LNN))|record depth|record T|# of Qubit|
 |---------|--------|-----|------------|--------------------------------------|------------|---------------|---|

@@ -1,0 +1,22 @@
+# (c) Copyright 2004-2011 Oleg Golubitsky and Dmitri Maslov
+# Distributing this file without an express written permission or erasing this note is prohibited.
+.v a,b,c,d
+.i a,b,c,d
+.o a,b,c,d
+BEGIN
+t1 d
+t2 d,c
+t4 a,c,d,b
+t3 a,d,c
+t3 b,d,a
+t3 c,d,b
+t3 b,c,d
+t3 a,d,b
+t2 a,d
+t1 a
+t1 b
+t1 c
+t4 b,c,d,a
+t2 b,c
+t3 a,d,c
+END

@@ -6,8 +6,9 @@ Reversible Logic Synthesis Benchmarks in OpenQASM2.0
 This is a rewriting of Reversible Logic Synthesis Benchmarks in Qiskit by [Shin Nishio](https://scholar.google.com/citations?user=gZNt8twAAAAJ&hl=ja)(a.k.a. parton). 
 
 # How to use ?
-1. git clone git@github.com:parton-quark/RLSB-OpenQASM.git
-2. compile circuits by your compiler
+1. `git clone git@github.com:parton-quark/RLSB-OpenQASM.git`
+2. Compile circuits by your compiler! There is an example [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/blob/master/circuits/original/00_4-bit_with_maximal_gate_count/how_to_use_py.ipynb).
+
 3. **Post your Record to this page!**
 
 # Contents

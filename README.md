@@ -15,7 +15,7 @@ Qiskit / CongX quantum circuit. First, install Qiskit and CongX.
     * `git clone git@github.com:parton-quark/RLSB-OpenQASM.git`
 3. Compile circuits by your compiler! There is an example [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/blob/master/converter/tutorial_for_converter_en.ipynb). Japanese version is [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/blob/master/converter/tutorial_for_converter_jp.ipynb).
 
-3. **Post your Record to this page!**
+3. **Send your Record to [RLSB](https://webhome.cs.uvic.ca/~dmaslov/submit.html)!**
 
 # Contents
 Quantum circuits and recording optimization results
@@ -47,9 +47,9 @@ Newly written circuit for RLSB-CongX-Qiskit.
 |:-------:|:---:|:--:|:-:|:---------:|
 |Quantum Walk on complete graph|circuit|image|cost|cost|depth|T counts|qubits|
 
-Quantum Cost is given as follows.
+<!-- Quantum Cost is given as follows.
 $$C=C_s+C_c \times$ 10$$ where $C_s$ is a number of Single-Qubit gates, and $C_c$ is a number of Two-Qubit Gates. 
-
+ -->
 <!-- ## Parameters to optimize
 The hardware and system software (including quantum error correction) of the state-of-the-art quantum information processing system define the work that the quantum compiler should do and the method of evaluating its performance.
 
@@ -64,7 +64,6 @@ The author of Qiskit fluctuates so please collect bib from this [link](https://g
 Special thanks and respect to Dmitri Maslov, the original RLSB maintainer and all programmers involved in that project. 
 
 Thanks to Atushi Matuo(IBM Research) for telling me about the existence of RLSB. Thanks to my supervisor at Keio University SFC, Professor Rodney Van Meter and Assistant Professor Takahiko Satoh. Thanks to all members of [AQUA](https://aqua.sfc.wide.ad.jp/members_en.html)(Advancing QUantum Architecture). 
-
 
 ## See also
 [CongX](https://github.com/parton-quark/CongX) is a controlled gate exansion set for Qiskit. Includes some generalized(biary controlled) Tofolli gate and compilers for them. Made by Shin Nishio.

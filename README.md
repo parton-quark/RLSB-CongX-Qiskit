@@ -6,6 +6,8 @@ Reversible Logic Synthesis Benchmarks for Qiskit and CongX.
 This is a rewriting of Reversible Logic Synthesis Benchmarks in Qiskit by [Shin Nishio](https://scholar.google.com/citations?user=gZNt8twAAAAJ&hl=ja)(a.k.a. parton). 
 
 # How to use ?
+CongXとQiskitを用いる必要があります。
+
 1. `git clone git@github.com:parton-quark/RLSB-OpenQASM.git`
 2. Compile circuits by your compiler! There is an example [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/blob/master/circuits/original/00_4-bit_with_maximal_gate_count/how_to_use_py.ipynb).
 
@@ -50,13 +52,12 @@ The hardware and system software (including quantum error correction) of the sta
 
 If you think there is more metric to add to this benchmark, please build an Issue.
 
-# Contact and citation
+## Contact and citation
 Feel free to contact me via issues for this repository or send email to parton@sfc.wide.ad.jp .
-Please cite as follows when you write a paper using this program.
+If you use this software, be sure to cite all of the original RLSB, RLSB-CongX-Qiskit, CongX,and Qiskit. Bib file of RLSB, RLSB-CongX-Qiskit, and CongX is [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/RLSB-CongX-Qiskit.bib)
+The author of Qiskit fluctuates so please collect bib from this [link](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
 
-**To Be Announced** in .bib format.
-
-# See also
+## See also
 [CongX](https://github.com/parton-quark/CNX_compilation) is a controlled gate exansion set for Qiskit. Includes some generalized(biary controlled) Tofolli gate and compilers for them. Made by Shin Nishio.
 
 [RevKit](http://www.revlib.org/)is an open source toolkit for reversible circuit design by Group of Computer Architecture

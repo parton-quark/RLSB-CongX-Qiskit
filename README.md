@@ -6,10 +6,14 @@ Reversible Logic Synthesis Benchmarks for Qiskit and CongX.
 This is a rewriting of Reversible Logic Synthesis Benchmarks in Qiskit by [Shin Nishio](https://scholar.google.com/citations?user=gZNt8twAAAAJ&hl=ja)(a.k.a. parton). 
 
 # How to use ?
-CongXとQiskitを用いる必要があります。
+Qiskit / CongX quantum circuit. First, install Qiskit and CongX.
 
-1. `git clone git@github.com:parton-quark/RLSB-OpenQASM.git`
-2. Compile circuits by your compiler! There is an example [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/blob/master/converter/tutorial_for_converter_en.ipynb). Japanese version is [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/blob/master/converter/tutorial_for_converter_jp.ipynb).
+1. Requirements
+    * `!pip install qiskit`
+    * `!pip install CongX`
+2. Clone this repository
+    * `git clone git@github.com:parton-quark/RLSB-OpenQASM.git`
+3. Compile circuits by your compiler! There is an example [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/blob/master/converter/tutorial_for_converter_en.ipynb). Japanese version is [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/blob/master/converter/tutorial_for_converter_jp.ipynb).
 
 3. **Post your Record to this page!**
 
@@ -17,7 +21,7 @@ CongXとQiskitを用いる必要があります。
 Quantum circuits and recording optimization results
 ## Contents from Original RLSB 
 To be released after approval of the original author
-
+<!-- 
 |Family/type|Individual functions and circuits|
 |:--:|:--:|
 |4-bit with maximal gate count:|[4b15g_1](https://github.com/parton-quark/RLSB-CongX-Qiskit/blob/master/circuits/original/00_4-bit_with_maximal_gate_count/RLSBCQ_4b15g_1.py) , 4b15g_2 , 4b15g_3 , 4b15g_4 , 4b15g_5|
@@ -34,28 +38,33 @@ To be released after approval of the original author
 |Permanent:|permanent1x1 , permanent 2x2 , permanent3x3 , permanent 4x4|
 |RD - input weight functions:|rd53 , rd73 , rd84|
 |Symmetric functions:|6sym , 9sym|
-|Other:|2-4dec , 2of5 , xor5|
+|Other:|2-4dec , 2of5 , xor5| -->
 
-<!-- 
 ## Additional Circuits 
 Newly written circuit for RLSB-CongX-Qiskit.
 
-|Algorithm|circuits|image|Quantum Cost|Quantum Cost(Limited topology(2D,LNN))|record depth|record T|# of Qubit|
-|---------|--------|-----|------------|--------------------------------------|------------|---------------|---|
-|ex)Quantum Walk on complete graph|circuit|image|cost|cost|depth|T counts|qubits|
+|Algorithm|image|.tfc|.py|description|
+|:-------:|:---:|:--:|:-:|:---------:|
+|Quantum Walk on complete graph|circuit|image|cost|cost|depth|T counts|qubits|
 
 Quantum Cost is given as follows.
-$$C=C_s+C_c \times$ 10$$ where $C_s$ is a number of Single-Qubit gates, and $C_c$ is a number of Two-Qubit Gates. -->
+$$C=C_s+C_c \times$ 10$$ where $C_s$ is a number of Single-Qubit gates, and $C_c$ is a number of Two-Qubit Gates. 
 
-## Parameters to optimize
+<!-- ## Parameters to optimize
 The hardware and system software (including quantum error correction) of the state-of-the-art quantum information processing system define the work that the quantum compiler should do and the method of evaluating its performance.
 
-If you think there is more metric to add to this benchmark, please build an Issue.
+If you think there is more metric to add to this benchmark, please build an Issue. -->
 
 ## Contact and citation
 Feel free to contact me via issues for this repository or send email to parton@sfc.wide.ad.jp .
 If you use this software, be sure to cite all of the original RLSB, RLSB-CongX-Qiskit, CongX,and Qiskit. Bib file of RLSB, RLSB-CongX-Qiskit, and CongX is [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/blob/master/RLSB-CongX-Qiskit.bib).
 The author of Qiskit fluctuates so please collect bib from this [link](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
+
+## Acknowledgement
+Special thanks and respect to Dmitri Maslov, the original RLSB maintainer and all programmers involved in that project. 
+
+Thanks to Atushi Matuo(IBM Research) for telling me about the existence of RLSB. Thanks to my supervisor at Keio University SFC, Professor Rodney Van Meter and Assistant Professor Takahiko Satoh. Thanks to all members of [AQUA](https://aqua.sfc.wide.ad.jp/members_en.html)(Advancing QUantum Architecture). 
+
 
 ## See also
 [CongX](https://github.com/parton-quark/CongX) is a controlled gate exansion set for Qiskit. Includes some generalized(biary controlled) Tofolli gate and compilers for them. Made by Shin Nishio.

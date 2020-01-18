@@ -54,7 +54,7 @@ If you think there is more metric to add to this benchmark, please build an Issu
 
 ## Contact and citation
 Feel free to contact me via issues for this repository or send email to parton@sfc.wide.ad.jp .
-If you use this software, be sure to cite all of the original RLSB, RLSB-CongX-Qiskit, CongX,and Qiskit. Bib file of RLSB, RLSB-CongX-Qiskit, and CongX is [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/RLSB-CongX-Qiskit.bib)
+If you use this software, be sure to cite all of the original RLSB, RLSB-CongX-Qiskit, CongX,and Qiskit. Bib file of RLSB, RLSB-CongX-Qiskit, and CongX is [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/blob/master/RLSB-CongX-Qiskit.bib)
 The author of Qiskit fluctuates so please collect bib from this [link](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
 
 ## See also

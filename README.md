@@ -36,7 +36,7 @@ To be released after approval of the original author
 |Symmetric functions:|6sym , 9sym|
 |Other:|2-4dec , 2of5 , xor5|
 
-
+<!-- 
 ## Additional Circuits 
 Newly written circuit for RLSB-CongX-Qiskit.
 
@@ -45,7 +45,7 @@ Newly written circuit for RLSB-CongX-Qiskit.
 |ex)Quantum Walk on complete graph|circuit|image|cost|cost|depth|T counts|qubits|
 
 Quantum Cost is given as follows.
-$$C=C_s+C_c \times$ 10$$ where $C_s$ is a number of Single-Qubit gates, and $C_c$ is a number of Two-Qubit Gates.
+$$C=C_s+C_c \times$ 10$$ where $C_s$ is a number of Single-Qubit gates, and $C_c$ is a number of Two-Qubit Gates. -->
 
 ## Parameters to optimize
 The hardware and system software (including quantum error correction) of the state-of-the-art quantum information processing system define the work that the quantum compiler should do and the method of evaluating its performance.
@@ -54,11 +54,11 @@ If you think there is more metric to add to this benchmark, please build an Issu
 
 ## Contact and citation
 Feel free to contact me via issues for this repository or send email to parton@sfc.wide.ad.jp .
-If you use this software, be sure to cite all of the original RLSB, RLSB-CongX-Qiskit, CongX,and Qiskit. Bib file of RLSB, RLSB-CongX-Qiskit, and CongX is [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/blob/master/RLSB-CongX-Qiskit.bib)
+If you use this software, be sure to cite all of the original RLSB, RLSB-CongX-Qiskit, CongX,and Qiskit. Bib file of RLSB, RLSB-CongX-Qiskit, and CongX is [here](https://github.com/parton-quark/RLSB-CongX-Qiskit/blob/master/RLSB-CongX-Qiskit.bib).
 The author of Qiskit fluctuates so please collect bib from this [link](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
 
 ## See also
-[CongX](https://github.com/parton-quark/CNX_compilation) is a controlled gate exansion set for Qiskit. Includes some generalized(biary controlled) Tofolli gate and compilers for them. Made by Shin Nishio.
+[CongX](https://github.com/parton-quark/CongX) is a controlled gate exansion set for Qiskit. Includes some generalized(biary controlled) Tofolli gate and compilers for them. Made by Shin Nishio.
 
 [RevKit](http://www.revlib.org/)is an open source toolkit for reversible circuit design by Group of Computer Architecture
 of the University of Bremen. 
